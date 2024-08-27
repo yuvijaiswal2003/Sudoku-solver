@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sudoku-grid {
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+}
+
+input.form-control {
+    text-align: center;
+    border: 1px solid #dee2e6;
+    padding: 0;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+    border-color: #80bdff;
+}
+
+.btn {
+    width: 120px;
+}
